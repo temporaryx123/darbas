@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="">
+<meta name="msapplication-tilecolor" content="">
+<title>WEB kūrimo kovos 2019</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Martynas Urbonas">
+<meta name="contact" content="">
+<meta name="copyright" content="">
+<meta name="googlebot" content="code">
+<meta name="googlebot" content="noodp">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="container">
+<div id="navigation">
+	<div id="clear-navigation"></div>
+	<a href="#"><div class="button-active">Receptai</div></a>
+	<a href="#"><div class="button">Kategorijos</div></a>
+</div>
+<div id="content">
+	<div id="center">
+		<div class="line"></div>
+		<h1>Suraskite receptus</h1>
+		<div id="container">
+			<div id="left">
+				<select name="category" class="select">
+					<optgroup label="Pasirinkite vieną iš variantų:">
+						<option value="false" selected>Kategorija</option>
+						<option value="1">Pasirinkimas 1</option>
+						<option value="2">Pasirinkimas 2</option>
+					</optgroup>
+				</select>
+				<select name="ingredients" class="select">
+					<optgroup label="Pasirinkite vieną iš variantų:">
+						<option value="false" selected>Ingredientai</option>
+						<option value="1">Pasirinkimas 1</option>
+						<option value="2">Pasirinkimas 2</option>
+					</optgroup>
+				</select>
+				<select name="" class="select">
+					<optgroup label="Pasirinkite vieną iš variantų:">
+						<option value="false" selected>Kilmė</option>
+						<option value="1">Pasirinkimas 1</option>
+						<option value="2">Pasirinkimas 2</option>
+					</optgroup>
+				</select>
+				<input type="text" name="name" placeholder="Pavadinimas" class="input">
+			</div>
+			<div id="right"><input type="button" value="Paieška" id="button-search" onclick="search();"></div>
+		</div>
+		<div class="clear"></div>
+		<div id="status"></div>
+		<div class="line"></div>
+		<h1>Receptai</h1>
+		<div id="filter">
+			<div class="button-active">Naujausi</div>
+			<div class="button">Visi</div>
+		</div>
+		<div class="clear"></div>
+		<div class="align-elements">
+			<div class="block">
+				<div class="left"><img src="https://www.themealdb.com/images/media/meals/1550442508.jpg" alt="Image, .PNG"></div>
+				<div class="right">
+					<h2>Pavadinimas</h2>
+					<h4>Ingridientų sąrašas</h4>
+					<p>Recepto tekstas...</p>
+				</div>
+			</div>
+			<div class="block">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="line"></div>
+		<h1>Ingredientai</h1>
+	</div>
+</div>
+<div id="clear-footer"></div>
+</div>
+<div id="footer">&lt;&gt; WEB kūrimo kovos 2019 &lt;/&gt;</div>
+<script src="js/website.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@mixin navigation_active_button {
+	background: #252628;
+	border-left: 4px solid #D9BE8F;
+}
+
+@mixin filter_active_button {
+	color: #F1F1F1;
+	background: #2F3032;
+	cursor: pointer;
+}

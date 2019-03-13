@@ -1,0 +1,211 @@
+/* SASS */
+/* Navigation */
+/* H1 */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #525252;
+  background: #EEEEEE;
+  font-family: 'Roboto', Arial, Helvetica, Sans-Serif;
+  font-size: 13.5px; }
+  body:before {
+    content: '';
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px; }
+
+::-moz-selection {
+  color: #FFFFFF;
+  background: #000000; }
+
+::selection {
+  color: #FFFFFF;
+  background: #000000; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+  a:hover {
+    color: #000000;
+    text-decoration: underline; }
+
+#container {
+  min-height: 100%;
+  margin-bottom: -82px;
+  position: relative; }
+
+#navigation {
+  background: #2F3032;
+  width: 10%;
+  height: 100%;
+  position: absolute; }
+  #navigation #clear-navigation {
+    height: 151px; }
+  #navigation .button, #navigation .button-active, #navigation #content #center #filter .button-active, #content #center #filter #navigation .button-active {
+    color: #FFFFFF;
+    width: 96%;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 4px solid #2F3032; }
+    #navigation .button:hover, #navigation .button-active:hover, #navigation #content #center #filter .button-active:hover, #content #center #filter #navigation .button-active:hover {
+      background: #252628;
+      border-left: 4px solid #D9BE8F; }
+    #navigation .button:active, #navigation .button-active:active, #navigation #content #center #filter .button-active:active, #content #center #filter #navigation .button-active:active {
+      background: #252628;
+      border-left: 4px solid #D9BE8F; }
+  #navigation .button-active {
+    background: #252628;
+    border-left: 4px solid #D9BE8F; }
+
+#content {
+  width: 90%;
+  margin-top: 53px;
+  float: right; }
+  #content .line {
+    background: url("../images/others/1.png") no-repeat center center;
+    width: 50%;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    #content .line:after {
+      content: '';
+      background: #DEDEDE;
+      width: 200%;
+      height: 2px;
+      margin-top: -2px;
+      top: 50%;
+      left: -50%;
+      display: block;
+      position: absolute;
+      z-index: -1; }
+  #content h1 {
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase; }
+  #content #center {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    #content #center #container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+      #content #center #container #left {
+        width: 85%;
+        float: left; }
+        #content #center #container #left .select, #content #center #container #left .input {
+          background: rgba(255, 255, 255, 0);
+          width: 12%;
+          padding: 12px 10px;
+          border: 1px solid #DEDEDE;
+          float: left; }
+        #content #center #container #left .input {
+          width: 62%;
+          padding-top: 13px;
+          padding-bottom: 13px; }
+      #content #center #container #right {
+        width: 15%;
+        float: right; }
+        #content #center #container #right #button-search {
+          color: #FFFFFF;
+          background: #C7B084;
+          padding: 14px 54px;
+          display: inline-block;
+          float: right;
+          font-size: 13.5px;
+          text-decoration: none;
+          text-shadow: none;
+          border-radius: 0;
+          -moz-border-radius: 0;
+          -webkit-border-radius: 0;
+          border: none;
+          cursor: pointer; }
+    #content #center #filter {
+      background: #F1F1F1;
+      width: 20%;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      text-align: center;
+      display: table;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4); }
+      #content #center #filter .button, #content #center #filter .button-active {
+        color: #5B5B5B;
+        background: #FFFFFF;
+        padding: 11px 30px;
+        display: inline-block;
+        margin-right: 25px;
+        border: 1px solid #CCCCCC;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px; }
+        #content #center #filter .button:hover, #content #center #filter .button-active:hover {
+          color: #F1F1F1;
+          background: #2F3032;
+          cursor: pointer; }
+        #content #center #filter .button:active, #content #center #filter .button-active:active {
+          color: #F1F1F1;
+          background: #2F3032;
+          cursor: pointer; }
+      #content #center #filter .button-active {
+        color: #F1F1F1;
+        background: #2F3032;
+        cursor: pointer; }
+    #content #center .align-elements {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: table;
+      text-align: center; }
+      #content #center .align-elements .block {
+        background: #FFFFFF;
+        width: 500px;
+        height: 250px;
+        margin-left: 30px;
+        display: inline-block; }
+        #content #center .align-elements .block .left {
+          width: 250px;
+          height: 250px;
+          float: left; }
+          #content #center .align-elements .block .left img {
+            width: 100%;
+            height: 100%; }
+        #content #center .align-elements .block .right {
+          width: 250px;
+          height: 250px;
+          float: right; }
+          #content #center .align-elements .block .right h2 {
+            font-weight: normal; }
+          #content #center .align-elements .block .right p {
+            padding: 15px;
+            text-align: left; }
+
+.clear {
+  height: 30px;
+  clear: both; }
+
+#clear-footer {
+  height: 120px;
+  clear: both; }
+
+#footer {
+  color: #FFFFFF;
+  background: #252627;
+  width: 100%;
+  height: 81px;
+  line-height: 81px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #2F3032; }
+
+/*# sourceMappingURL=style.css.map */
